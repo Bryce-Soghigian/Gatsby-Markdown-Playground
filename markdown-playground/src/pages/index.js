@@ -5,9 +5,15 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby blog with Markdown pages.</p>
-    <Link to="/docs">Go to my first Markdown blog post</Link>
+    <h1>Welcome to the scribe documentation.</h1>
+    <p>Click the links below to go to the frontend and backend documentation</p>
+    <div>
+    <Link to="/docs">Go to the frontend documentation</Link>
+    </div>
+    <div>
+    <Link to ="/docs-be">Go to the backend documentation</Link>
+    </div>
+
   </Layout>
 )
 
